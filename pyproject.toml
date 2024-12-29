@@ -1,0 +1,15 @@
+
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = "My project description"
+authors = ["Daniel Verhoef"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^8.3.4"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
